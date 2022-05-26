@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sn.moussa.Activite0" >
+
+    <!-- Orientation du linear layout -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo7"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="30dp"
+        />
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+							     <TextView
+							            android:id="@+id/textviewajoutinfos"
+							            android:layout_width="wrap_content"
+							            android:layout_height="wrap_content"
+							            android:text="Veuillez saisir un mot francais et son correspondant wolof puis cliquer sur le bouton ajouter !"
+							            android:textColor="#000000"
+							            android:gravity="center_horizontal"
+							            android:textSize="15dp"
+							            android:paddingBottom="30dp"
+							            android:textStyle="bold"
+							             />
+    
+   </LinearLayout> 
+   
+    
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+							     <TextView
+							            android:id="@+id/textviewajoutfr"
+							            android:layout_width="wrap_content"
+							            android:layout_height="wrap_content"
+							            android:text="FR:"
+							            android:textColor="#0000FF"
+							            android:textSize="20dp"
+							            android:textStyle="bold" 
+							            android:paddingBottom="30dp"
+							            />
+							     
+							     <EditText
+							                android:id="@+id/edittextajoutfr"
+								            android:layout_width="wrap_content"
+								            android:layout_height="wrap_content"
+								            android:layout_weight="20"
+								            android:hint="Votre mot Français... "
+								            android:inputType="text" />
+	 </LinearLayout>
+							     
+    
+  
+    
+
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+							     <TextView
+							            android:id="@+id/textviewajoutwl"
+							            android:layout_width="wrap_content"
+							            android:layout_height="wrap_content"
+							            android:text="WL:"
+							            android:textColor="#0000FF"
+							            android:textSize="20dp"
+							            android:textStyle="bold" 
+							            android:paddingBottom="30dp"
+							            />
+							     
+							     <EditText
+								            android:id="@+id/edittextajoutwl"
+								            android:layout_width="wrap_content"
+								            android:layout_height="wrap_content"
+								            android:layout_weight="20"
+								            android:hint="Votre mot Wolof... "
+								            android:inputType="text" />
+</LinearLayout>
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+			     <Button
+			            android:id="@+id/ajoutermot"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_weight="30"
+			            android:text="Ajouter un Mot" />			
+    
+    
+    	     
+</LinearLayout>
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+			     <Button
+			            android:id="@+id/ajouterretour"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_weight="30"
+			            android:text="Menu Principal" />			
+    
+    
+    	     
+</LinearLayout>
+
+
+
+
+
+
+
+							     
+    
+ 
+    
+    
+    
+    
+
+</LinearLayout>
